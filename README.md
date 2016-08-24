@@ -8,3 +8,6 @@ Run the following command to install and start the application:
 ```
   $ ./start.sh
 ```
+----
+
+![alt tag](https://raw.githubusercontent.com/AntonioFantini/coordinates-finder-desktop/master/images/screenshot.png)
