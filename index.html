@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Coordinates Finder</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <h1>Coordinates Finder</h1>
+    <div id="searchcontainer">
+      <input id="location" placeholder="Enter a location... (Ctrl +i for quick input)" type="text" ></input>
+      <div id="search-btn" alt="Search"></div>
+    </div>
+    <div id="container" style="display:none;">
+      <h2 id="locationName"></h2>
+       <p id="formatted_address"></p>
+      <div class="tableContainer">
+        <span class="customLabel">Place id: </span><span id="placeid"></span>
+      </div>
+      <div class="tableContainer">
+        <span class="customLabel">Latitude: </span><span id="latitude"></span>
+      </div>
+      <div class="tableContainer">
+         <span class="customLabel">Longitude: </span><span id="longitude"></span>
+      </div>
+    </div>
+
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>

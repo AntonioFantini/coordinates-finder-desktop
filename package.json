@@ -1,0 +1,31 @@
+{
+  "name": "system_status_app",
+  "version": "1.0.0",
+  "description": "A simple application to check syystem status",
+  "main": "main.js",
+  "dependencies": {
+    "key-emit":"latest",
+    "electron-prebuilt": "^1.2.0",
+    "https-proxy-agent": "^1.0.0",
+    "request": "^2.74.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioFantini/coordinates-finder-desktop.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Antonio Fantini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioFantini/coordinates-finder-desktop/issues"
+  },
+  "homepage": "https://github.com/AntonioFantini/coordinates-finder-desktop#readme"
+}
