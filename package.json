@@ -1,10 +1,10 @@
 {
-  "name": "system_status_app",
+  "name": "coordinates-finder-desktop",
   "version": "1.0.0",
-  "description": "A simple application to check syystem status",
+  "description": "A simple desktop application to check coordinates of a given place",
   "main": "main.js",
   "dependencies": {
-    "key-emit":"latest",
+    "key-emit":"^0.0.4",
     "electron-prebuilt": "^1.2.0",
     "https-proxy-agent": "^1.0.0",
     "request": "^2.74.0"
