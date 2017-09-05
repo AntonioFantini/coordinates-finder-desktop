@@ -7,5 +7,10 @@ pipeline {
         load 'gates/communityartifactsversioning/RunGate.groovy'
       }
     }
+    stage('Version') {
+      steps {
+        load 'gates/versionsalignementanalysis/RunGate.groovy'
+      }
+    }
   }
 }
