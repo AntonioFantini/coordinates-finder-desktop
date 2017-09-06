@@ -12,5 +12,10 @@ pipeline {
         load 'gates/versionsalignmentanalysis/RunGate.groovy'
       }
     }
+    stage('jdk v') {
+      steps {
+        load 'gates/jdkversioning/RunGate.groovy'
+      }
+    }
   }
 }
