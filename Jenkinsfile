@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Version') {
       steps {
-        load 'gates/versionsalignementanalysis/RunGate.groovy'
+        load 'gates/versionsalignmentanalysis/RunGate.groovy'
       }
     }
   }
