@@ -7,9 +7,9 @@ pipeline {
         load 'gates/communityartifactsversioning/RunGate.groovy'
       }
     }
-    stage('Version') {
+    stage('buuldable cus sc') {
       steps {
-        load 'gates/versionsalignmentanalysis/RunGate.groovy'
+        load 'gates/buildablecustomersourcecode/RunGate.groovy'
       }
     }
     stage('jdk v') {
