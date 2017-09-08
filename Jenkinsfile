@@ -7,5 +7,10 @@ pipeline {
         load 'gates/jdkversioning/RunGate.groovy'
       }
     }
+    stage('test2 ') {
+      steps {
+        load 'gates/buildtoolversioning/RunGate.groovy'
+      }
+    }
   }
 }
