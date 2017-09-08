@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       steps {
         git(url: 'http://git.app.eng.bos.redhat.com/git/jboss-prod-core/gates.git/', branch: 'master')
-        load 'gates/dockersignedcontent/RunGate.groovy'
+        load 'gates/jdkversioning/RunGate.groovy'
       }
     }
   }
